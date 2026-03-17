@@ -189,6 +189,16 @@ a {
   max-width: 30rem;
 }
 
+.hero-offer {
+  margin-top: 0.75rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: var(--radius-md);
+  display: inline-block;
+  background: linear-gradient(135deg, rgba(122, 92, 255, 0.14), rgba(23, 190, 187, 0.14));
+  border: 1px solid rgba(122, 92, 255, 0.25);
+  color: var(--text);
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
