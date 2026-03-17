@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rhythm & Grace Dance Academy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Nunito:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-mark">R&G</span>
+        <div class="logo-text">
+          <span class="logo-title">Rhythm &amp; Grace</span>
+          <span class="logo-subtitle">Dance &amp; Creative Academy</span>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#branches">Branches</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Inspire Rhythm &amp; Creativity</h1>
+          <p>
+            Rhythm &amp; Grace Dance Academy nurtures confident, creative kids and adults through
+            dance, music, and skill-building courses in a warm, supportive environment.
+          </p>
+          <div class="hero-actions">
+            <a href="#courses" class="btn primary-btn">Explore Courses</a>
+          </div>
+          <div class="hero-highlights">
+            <span>10+ Specialized Courses</span>
+            <span>3 Convenient Branches</span>
+            <span>Certified Instructors</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-circle hero-circle-main"></div>
+          <div class="hero-circle hero-circle-secondary"></div>
+          <div class="hero-card hero-card-dance">
+            <span class="hero-card-label">Dance</span>
+            <span class="hero-card-text">Classical · Western · Zumba</span>
+          </div>
+          <div class="hero-card hero-card-creative">
+            <span class="hero-card-label">Creative</span>
+            <span class="hero-card-text">Arts · Music · Abacus</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="courses">
+      <div class="container">
+        <header class="section-header">
+          <h2>Our Courses</h2>
+          <p>Holistic programs for mind, body, and creativity.</p>
+        </header>
+
+        <div class="course-filters" aria-label="Filter courses">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="kids">Kids</button>
+          <button class="filter-btn" data-filter="academic">Academic</button>
+          <button class="filter-btn" data-filter="creative">Creative</button>
+          <button class="filter-btn" data-filter="fitness">Fitness</button>
+          <button class="filter-btn" data-filter="skill">Skill</button>
+        </div>
+
+        <div class="cards-grid courses-grid">
+          <article class="card course-card" data-category="kids academic skill">
+            <h3>Junior Abacus</h3>
+            <p>Boost concentration, speed, and mental math skills through engaging abacus sessions designed for young
+              learners.</p>
+            <div class="tags">
+              <span class="tag">Kids</span>
+              <span class="tag">Academic</span>
+              <span class="tag">Skill</span>
+            </div>
+          </article>
+
+          <article class="card course-card" data-category="kids creative">
+            <h3>Drawing</h3>
+            <p>Introduce children to shapes, shading, and color theory with fun drawing activities that build
+              imagination.</p>
+            <div class="tags">
+              <span class="tag">Kids</span>
+              <span class="tag">Creative</span>
+            </div>
+          </article>
+
+          <article class="card course-card" data-category="academic creative">
+            <h3>Arts Tuition</h3>
+            <p>Support school art curriculum with structured coaching in sketching, painting, and craft techniques.</p>
+            <div class="tags">
+              <span class="tag">Academic</span>
+              <span class="tag">Creative</span>
+            </div>
+          </article>
+
+          <article class="card course-card" data-category="academic skill">
+            <h3>Spoken English</h3>
+            <p>Improve vocabulary, pronunciation, and confidence with interactive speaking sessions and role plays.</p>
+            <div class="tags">
+              <span class="tag">Academic</span>
+              <span class="tag">Skill</span>
+            </div>
+          </article>
+
+          <article class="card course-card" data-category="skill academic">
+            <h3>Tally Prime</h3>
+            <p>Hands-on training in Tally Prime for accounting, billing, and business management fundamentals.</p>
+            <div class="tags">
+              <span class="tag">Skill</span>
+              <span class="tag">Academic</span>
+            </div>
+          </article>
+
+          <article class="card course-card" data-category="fitness creative">
+            <h3>Dance Class</h3>
+            <p>Learn classical and western styles with choreography that builds grace, rhythm, and stage presence.</p>
+            <div class="tags">
+              <span class="tag">Creative</span>
+              <span class="tag">Fitness</span>
+            </div>
+          </article>
+
+          <article class="card course-card" data-category="creative">
+            <h3>Music Class</h3>
+            <p>Explore vocal and instrumental basics, rhythm exercises, and performance skills for all age groups.</p>
+            <div class="tags">
+              <span class="tag">Creative</span>
+            </div>
+          </article>
+
+          <article class="card course-card" data-category="fitness">
+            <h3>Yoga Class</h3>
+            <p>Build flexibility, focus, and calm with age-appropriate yoga postures and guided breathing.</p>
+            <div class="tags">
+              <span class="tag">Fitness</span>
+            </div>
+          </article>
+
+          <article class="card course-card" data-category="creative skill">
+            <h3>Aari Embroidery</h3>
+            <p>Learn intricate Aari embroidery techniques for blouses, saris, and custom design work.</p>
+            <div class="tags">
+              <span class="tag">Creative</span>
+              <span class="tag">Skill</span>
+            </div>
+          </article>
+
+          <article class="card course-card" data-category="fitness creative">
+            <h3>Zumba Dance</h3>
+            <p>High-energy Zumba sessions that blend fitness and fun with easy-to-follow dance routines.</p>
+            <div class="tags">
+              <span class="tag">Fitness</span>
+              <span class="tag">Creative</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="branches">
+      <div class="container">
+        <header class="section-header">
+          <h2>Our Branches</h2>
+          <p>Three convenient locations so you can learn closer to home.</p>
+        </header>
+
+        <div class="cards-grid branches-grid">
+          <article class="card branch-card">
+            <h3>Main Branch</h3>
+            <p class="branch-area">City Center</p>
+            <p class="branch-detail">123 Harmony Street, City Center</p>
+            <p class="branch-detail">Phone: +91-90000-11111</p>
+            <p class="branch-detail">Timings: Mon–Sun, 6:00 AM – 9:00 PM</p>
+          </article>
+
+          <article class="card branch-card">
+            <h3>North Branch</h3>
+            <p class="branch-area">North Avenue</p>
+            <p class="branch-detail">45 Rhythm Road, North Avenue</p>
+            <p class="branch-detail">Phone: +91-90000-22222</p>
+            <p class="branch-detail">Timings: Mon–Sat, 6:00 AM – 8:00 PM</p>
+          </article>
+
+          <article class="card branch-card">
+            <h3>South Branch</h3>
+            <p class="branch-area">South Cross</p>
+            <p class="branch-detail">78 Grace Lane, South Cross</p>
+            <p class="branch-detail">Phone: +91-90000-33333</p>
+            <p class="branch-detail">Timings: Mon–Sat, 6:00 AM – 8:00 PM</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-text">
+          <header class="section-header align-left">
+            <h2>About Rhythm &amp; Grace</h2>
+          </header>
+          <p>
+            Rhythm &amp; Grace Dance &amp; Creative Academy was founded with a simple belief: every child and adult
+            deserves a space to express, explore, and excel.
+          </p>
+          <p>
+            From classical dance to modern fitness formats, from abacus to embroidery, our programs are crafted to
+            develop discipline, creativity, and confidence—on stage and in life.
+          </p>
+          <ul class="about-list">
+            <li>Experienced, child-friendly instructors</li>
+            <li>Performance opportunities and annual showcases</li>
+            <li>Structured curriculum with progressive levels</li>
+            <li>Safe, air-conditioned classrooms and practice studios</li>
+          </ul>
+        </div>
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <span class="highlight-number">10+</span>
+            <span class="highlight-label">Years of Teaching</span>
+          </div>
+          <div class="highlight-card">
+            <span class="highlight-number">500+</span>
+            <span class="highlight-label">Students Trained</span>
+          </div>
+          <div class="highlight-card">
+            <span class="highlight-number">3</span>
+            <span class="highlight-label">Branches</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="gallery">
+      <div class="container">
+        <header class="section-header">
+          <h2>Photo &amp; Video Gallery</h2>
+          <p>A glimpse of our vibrant classes, performances, and practice sessions.</p>
+        </header>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <div class="gallery-thumb photo1"></div>
+            <span class="gallery-label">Kids Dance Practice</span>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-thumb photo2"></div>
+            <span class="gallery-label">Zumba Fitness Session</span>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-thumb photo3"></div>
+            <span class="gallery-label">Annual Day Performance</span>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-thumb photo4"></div>
+            <span class="gallery-label">Yoga &amp; Stretch Class</span>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-thumb video1"></div>
+            <span class="gallery-label">Video: Beginner Dance Routine</span>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-thumb video2"></div>
+            <span class="gallery-label">Video: Stage Performance Highlights</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <header class="section-header">
+          <h2>Branch Timings</h2>
+          <p>Find the opening hours for each of our three branches.</p>
+        </header>
+        <div class="cards-grid branches-grid">
+          <article class="card branch-card">
+            <h3>Main Branch</h3>
+            <p class="branch-area">City Center</p>
+            <p class="branch-detail"><strong>Timings:</strong> Mon–Sun, 6:00 AM – 9:00 PM</p>
+          </article>
+          <article class="card branch-card">
+            <h3>North Branch</h3>
+            <p class="branch-area">North Avenue</p>
+            <p class="branch-detail"><strong>Timings:</strong> Mon–Sat, 6:00 AM – 8:00 PM</p>
+          </article>
+          <article class="card branch-card">
+            <h3>South Branch</h3>
+            <p class="branch-area">South Cross</p>
+            <p class="branch-detail"><strong>Timings:</strong> Mon–Sat, 6:00 AM – 8:00 PM</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Rhythm &amp; Grace Dance &amp; Creative Academy. Main Branch: 123 Harmony Street,
+        City Center · North Branch: 45 Rhythm Road, North Avenue · South Branch: 78 Grace Lane, South Cross.</p>
+      <a href="#top" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+
