@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Courses - Rhythm & Grace Dance Academy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Nunito:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-mark">R&G</span>
+        <div class="logo-text">
+          <span class="logo-title">Rhythm &amp; Grace</span>
+          <span class="logo-subtitle">Dance &amp; Creative Academy</span>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="branches.html">Branches</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="courses">
+      <div class="container">
+        <header class="section-header">
+          <h2>Our Courses</h2>
+          <p>Dance, fitness, and performance-focused programs for all ages.</p>
+        </header>
+
+        <div class="info-banner" role="note" aria-label="Additional courses note">
+          <strong>Plus:</strong> Many other arts courses are also available. Ask at any branch for the full list.
+        </div>
+
+        <div class="course-filters" aria-label="Filter courses">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="dance">Dance</button>
+          <button class="filter-btn" data-filter="fitness">Fitness</button>
+          <button class="filter-btn" data-filter="performance">Performance</button>
+        </div>
+
+        <div class="cards-grid courses-grid">
+          <article class="card course-card" data-category="dance performance">
+            <h3>Dance</h3>
+            <p>Learn foundational steps, rhythm, flexibility, and choreography with progressive levels.</p>
+            <div class="tags">
+              <span class="tag">Dance</span>
+              <span class="tag">Performance</span>
+            </div>
+          </article>
+
+          <article class="card course-card" data-category="fitness dance">
+            <h3>Zumba</h3>
+            <p>Fun, high-energy workouts with dance routines that improve stamina and confidence.</p>
+            <div class="tags">
+              <span class="tag">Fitness</span>
+              <span class="tag">Dance</span>
+            </div>
+          </article>
+
+          <article class="card course-card" data-category="performance">
+            <h3>Acting</h3>
+            <p>Build stage confidence with expression, dialogue delivery, body language, and short skits.</p>
+            <div class="tags">
+              <span class="tag">Performance</span>
+            </div>
+          </article>
+
+          <article class="card course-card" data-category="performance">
+            <h3>Vocal</h3>
+            <p>Develop voice control, breathing technique, pitch, and basic performance skills.</p>
+            <div class="tags">
+              <span class="tag">Performance</span>
+            </div>
+          </article>
+
+          <article class="card course-card" data-category="dance performance">
+            <h3>Bharatanatyam</h3>
+            <p>Traditional classical dance training with adavus, mudras, and expressive abhinaya.</p>
+            <div class="tags">
+              <span class="tag">Dance</span>
+              <span class="tag">Performance</span>
+            </div>
+          </article>
+
+          <article class="card course-card" data-category="fitness">
+            <h3>Yoga</h3>
+            <p>Improve posture, flexibility, and focus with guided asanas and breathing practices.</p>
+            <div class="tags">
+              <span class="tag">Fitness</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="other-courses">
+          <h3 class="other-courses-title">Other Arts &amp; Skill Courses</h3>
+          <p class="other-courses-subtitle">Available in select branches / batches.</p>
+          <div class="chips">
+            <span class="chip">Drawing</span>
+            <span class="chip">Arts Tuition</span>
+            <span class="chip">Music Basics</span>
+            <span class="chip">Aari Embroidery</span>
+            <span class="chip">Junior Abacus</span>
+            <span class="chip">Spoken English</span>
+            <span class="chip">Tally Prime</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Rhythm &amp; Grace Dance &amp; Creative Academy. All rights reserved.</p>
+      <a href="#top" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/919000011111" target="_blank" rel="noopener noreferrer"
+    aria-label="Chat on WhatsApp">
+    <span class="whatsapp-icon" aria-hidden="true">WA</span>
+    <span class="whatsapp-text">WhatsApp</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+
